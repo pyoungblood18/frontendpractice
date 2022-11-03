@@ -1,0 +1,99 @@
+body {
+  font-family: 'GT American Standard', sans-serif;
+  margin: 0;
+}
+
+/* Large */
+.top-bar {
+  display: flex;
+
+  background: #000000;
+  font-size: 17px;
+  height: 88px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.topbar__inner {
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto 0 auto 0;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/* Medium & Small */
+/*
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+.help ul, .request ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#abstract-nav, #submit-nav {
+  margin-right: 15px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:link, nav ul li a:visited, nav ul li a:hover {
+  color: white;
+}
+*/
+
+header {
+  background: #dadbf1;
+  display: flex;
+  height: 374px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  color: #fff;
+  background: #000;
+
+  font-size: 12px;
+  line-height: 24px;
+}
+
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
