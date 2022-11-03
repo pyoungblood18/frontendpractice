@@ -4,63 +4,66 @@ body {
 }
 
 /* Large */
-.top-bar {
+nav.tb-container {
+  position: relative;
+  top: 0;
+  background: #000;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
   display: flex;
-
-  background: #000000;
-  font-size: 17px;
   height: 88px;
+  padding: 0 30px;
+  font-size: 17px;
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.topbar__inner {
+div.tb-inner {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  max-width: 1900px;
+  width: 90%;
   justify-content: space-between;
-
-  margin: auto 0 auto 0;
-
+  margin: auto;
+  height: 50px;
 }
-
-nav a {
+.tb-inner a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
 }
 
-
-/* Medium & Small */
-/*
-@media all and (max-width: 800px) {
-  nav {
-    justify-content: space-around;
-  }
+.tb-help,
+.tb-submit,
+.tb-sign {
+  margin: 4px 0 0 0.8rem;
 }
 
-.help ul, .request ul {
-  display: flex;
-  flex-direction: row;
+.tb-help:hover {
+  text-decoration: underline;
 }
 
-#abstract-nav, #submit-nav {
-  margin-right: 15px;
+.tb-buttons button {
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
 }
 
-nav ul li {
-  list-style-type: none;
+button.tb-submit {
+  border: 1px solid #fff;
+  background: #000;
 }
 
-nav ul li a {
-  text-decoration: none;
+button.tb-sign {
+  border: none;
+  background: #4c5fd5;
+  border-color: #4c5fd5;
 }
 
-nav ul li a:link, nav ul li a:visited, nav ul li a:hover {
-  color: white;
-}
-*/
+/* media query for submits */
+
 
 header {
   background: #dadbf1;
