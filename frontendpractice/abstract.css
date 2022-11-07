@@ -1,9 +1,9 @@
 body {
-  font-family: monospace;
+  font-family:  sans-serif;
   margin: 0;
 }
 
-/* Large */
+/* NAV-BAR */
 nav.tb-container {
   position: relative;
   top: 0;
@@ -37,7 +37,7 @@ div.tb-inner {
 .tb-help,
 .tb-submit,
 .tb-sign {
-  margin: 4px 0 0 0.8rem;
+  margin: 0 0 0 0.8rem;
 }
 
 .tb-help:hover {
@@ -64,17 +64,78 @@ button.tb-sign {
 
 /* media query for submits */
 
-
-header {
+/* HOW CAN WE HELP */
+section {
   background: #dadbf1;
   display: flex;
-  height: 374px;
 }
 
-main {
+.s-container {
+  position: relative;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.s-inner {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.s-help {
+  font-size: 80px;
+  letter-spacing: -4px;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.s-sb input,
+.s-sb button {
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 18px 15px;
+  font-size: 24px;
+}
+
+.s-sb input {
+  width: 60%;
+}
+
+.s-sb button {
+  width: 10%;
+}
+
+/* BODY */
+.main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-inner {
+  max-width: 1600px;
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.main-content {
+  margin-top: 8rem;
+
   display: flex;
   flex-wrap: wrap;
+
+  padding-right: 15px;
 }
+
+.category {
+  min-height: 115px;
+  width: 50%;
+
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 3rem;
+}
+
 
 footer {
   display: flex;
