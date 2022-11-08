@@ -123,8 +123,6 @@ section {
 
   display: flex;
   flex-wrap: wrap;
-
-  padding-right: 15px;
 }
 
 .category {
@@ -136,7 +134,24 @@ section {
   margin-bottom: 3rem;
 }
 
+.category-icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-right: 15px;
+}
 
+.category-info {
+  position: relative;
+  padding: 0 1.5rem 0 0;
+  width: 100%;
+}
+
+.category-info h3 {
+  font-size: 24px;
+}
+
+/* FOOTER */
 footer {
   display: flex;
   flex-direction: row;
